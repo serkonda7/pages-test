@@ -1,2 +1,4 @@
+import { string_val } from './data.js'
+
 const el = document.querySelector('#foobar')
-el.innerText = 'index script placeholder'
+el.innerText = string_val
